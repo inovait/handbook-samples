@@ -1,49 +1,56 @@
-# Android Architecture Samples
+# Todo — Android Sample App
 
-These samples showcase different architectural approaches to developing Android apps. In its different branches you'll find the same app (a TODO app) implemented with small differences.
-
-In this branch you'll find:
-*   User Interface built with **[Jetpack Compose](https://developer.android.com/jetpack/compose)** 
-*   A single-activity architecture, using **[Navigation Compose](https://developer.android.com/jetpack/compose/navigation)**.
-*   A presentation layer that contains a Compose screen (View) and a **ViewModel** per screen (or feature).
-*   Reactive UIs using **[Flow](https://developer.android.com/kotlin/flow)** and **[coroutines](https://kotlinlang.org/docs/coroutines-overview.html)** for asynchronous operations.
-*   A **data layer** with a repository and two data sources (local using Room and a fake remote).
-*   Two **product flavors**, `mock` and `prod`, [to ease development and testing](https://android-developers.googleblog.com/2015/12/leveraging-product-flavors-in-android.html).
-*   A collection of unit, integration and e2e **tests**, including "shared" tests that can be run on emulator/device.
-*   Dependency injection using [Hilt](https://developer.android.com/training/dependency-injection/hilt-android).
+A small single-user to-do list app: capture the things you need to do, tick them off as you go, and see how much is left. The app is deliberately simple on the surface so it can double as a clean reference for how a modern Android app is put together (Jetpack Compose, ViewModels, a repository over Room, Hilt for dependency injection). This README, though, is about what the app *does* — and what it could do next.
 
 ## Screenshots
 
 <img src="screenshots/screenshots.png" alt="Screenshot">
 
-## Why a to-do app?
+## What the app can do today
 
-The app in this project aims to be simple enough that you can understand it quickly, but complex enough to showcase difficult design decisions and testing scenarios. For more information, see the [app's specification](https://github.com/googlesamples/android-architecture/wiki/To-do-app-specification).
+### Manage your tasks
+* **Add a task** with a title and a description (both are required).
+* **Edit** an existing task's title and description.
+* **Mark a task complete or active** — straight from the list with a checkbox, or from the task's detail screen. Completed tasks are shown with strikethrough.
+* **Open a task** to see its full title, description, and status.
+* **Delete a single task** from its detail screen.
+* **Clear all completed tasks** at once from the list's overflow menu.
 
-## What is it not?
-*   A template. Check out the [Architecture Templates](https://github.com/android/architecture-templates) instead.
-*   A UI/Material Design sample. The interface of the app is deliberately kept simple to focus on architecture. Check out the [Compose Samples](https://github.com/android/compose-samples) instead.
-*   A real production app with network access, user authentication, etc. Check out the [Now in Android app](https://github.com/android/nowinandroid) instead.
+### Find what matters
+* **Filter the list** by All, Active, or Completed; the header shows which view you're in.
+* **Tailored empty states** per filter ("You have no active tasks!", and so on), so an empty list still tells you something useful.
 
-## Who is it for?
+### See your progress
+* **Statistics screen** showing the share of active vs. completed tasks as percentages.
 
-*   Intermediate developers and beginners looking for a way to structure their app in a testable and maintainable way.
-*   Advanced developers looking for quick reference.
+### Get around
+* **Navigation drawer** to switch between the task list and the statistics screen.
+* **Pull-to-refresh** (and a Refresh action) on every list, re-pulling from the data source.
+* **Snackbar confirmations** for every change: task added, saved, deleted, marked complete or active, completed cleared.
 
-## Opening a sample in Android Studio
+### Under the hood
+Tasks live in a local **Room** database. Every change also pushes, in the background, to a fake in-memory "network" source seeded with two sample tasks, so you can watch a one-way sync work without a real backend behind it. `refresh` replaces the local data with the network contents.
 
-To open one of the samples in Android Studio, begin by checking out one of the sample branches, and then open the root directory in Android Studio. The following series of steps illustrate how to open the sample.
+## What could be built next
 
-Clone the repository:
+The app is a foundation, not a finished product. Natural next features:
 
-```
-git clone git@github.com:android/architecture-samples.git
-```
+* **Due dates and reminders** — give a task a deadline and fire a notification as it approaches.
+* **Priorities and sorting** — flag important tasks and sort by priority, date, or title.
+* **Categories, tags, or multiple lists** — group tasks (Work / Home / Shopping) and filter by group.
+* **Search** — find a task by title or description as the list grows.
+* **Subtasks and checklists** — break a task into smaller steps.
+* **Swipe actions and undo** — swipe to complete or delete, with an undo snackbar.
+* **A real backend** — replace the fake in-memory source with a real API, turning today's one-way push into proper two-way sync with conflict handling.
+* **Accounts and multiple devices** — sign in and keep the same list everywhere.
+* **Theming and a home-screen widget** — dark mode, dynamic color, and a widget showing today's tasks.
+* **Richer statistics** — completed-per-day trends, streaks, or a chart on the statistics screen.
 
-Finally open the `architecture-samples/` directory in Android Studio.
+## Opening the project in Android Studio
+
+Check out the branch you want to explore, then open the repository's root directory in Android Studio.
 
 ### License
-
 
 ```
 Copyright 2024 Google, Inc.
