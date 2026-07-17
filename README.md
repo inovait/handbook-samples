@@ -72,4 +72,4 @@ the License.
 
 ## Zgodbica
 
-> Nekoč je mlad programer napisal svojo prvo vrstico kode. »Pozdravljen, svet!« je zažarelo na zaslonu. Nasmehnil se je, saj je vedel, da se je pravkar začela zgodba, ki se nikoli ne konča z zadnjo vrstico, ampak vedno z novo idejo.
+> Dominik je napisal svojo prvo vrstico kode, a program je molčal — manjkalo je eno samo podpičje. Dodal ga je, zaslon je oživel, in Dominik je razumel: velike reči se skrivajo v drobnem `;`.
