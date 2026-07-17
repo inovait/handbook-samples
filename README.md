@@ -1,3 +1,9 @@
+# Zdravo Inovac 👋
+
+## Inova pisarna
+
+**Inova IT d.o.o.**, Jadranska cesta 25a, 2000 Maribor, Slovenija
+
 # Android Architecture Samples
 
 These samples showcase different architectural approaches to developing Android apps. In its different branches you'll find the same app (a TODO app) implemented with small differences.
@@ -63,3 +69,7 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 ```
+
+## Zgodbica o programiranju
+
+Pozno zvečer je mlada razvijalka lovila napako, ki se je trmasto skrivala globoko v kodi. Ura za uro je preizkušala, dvomila in skoraj obupala. Tik preden je hotela ugasniti računalnik, je zagledala drobno podrobnost — manjkajoč znak v enem samem pogoju. Popravila ga je, program je nemoteno stekel, in v tišini pisarne se ji je na obraz prikradel nasmeh. Programiranje ni v tem, da nikoli ne narediš napake, temveč v vztrajnosti, s katero vsako napako spremeniš v novo znanje. Dobrodošel med nami, Inovac — tu iz majhnih vrstic kode skupaj gradimo velike zgodbe.
