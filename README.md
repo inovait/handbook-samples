@@ -1,3 +1,5 @@
+# Zdravo Inovac
+
 # Android Architecture Samples
 
 These samples showcase different architectural approaches to developing Android apps. In its different branches you'll find the same app (a TODO app) implemented with small differences.
@@ -11,6 +13,10 @@ In this branch you'll find:
 *   Two **product flavors**, `mock` and `prod`, [to ease development and testing](https://android-developers.googleblog.com/2015/12/leveraging-product-flavors-in-android.html).
 *   A collection of unit, integration and e2e **tests**, including "shared" tests that can be run on emulator/device.
 *   Dependency injection using [Hilt](https://developer.android.com/training/dependency-injection/hilt-android).
+
+## Pisarna Maribor
+
+Inova IT d.o.o., Jadranska cesta 25a, 2000 Maribor, Slovenija
 
 ## Screenshots
 
@@ -63,3 +69,7 @@ WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
 License for the specific language governing permissions and limitations under
 the License.
 ```
+
+## Zgodbica
+
+> Nekoč je mlad programer napisal svojo prvo vrstico kode. »Pozdravljen, svet!« je zažarelo na zaslonu. Nasmehnil se je, saj je vedel, da se je pravkar začela zgodba, ki se nikoli ne konča z zadnjo vrstico, ampak vedno z novo idejo.
