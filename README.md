@@ -71,3 +71,8 @@ the License.
 ## Zgodbica
 
 > Dominik je napisal svojo prvo vrstico kode, a program je molčal — manjkalo je eno samo podpičje. Dodal ga je, zaslon je oživel, in Dominik je razumel: velike reči se skrivajo v drobnem `;`.
+
+## Kratka zgodbica
+
+> V pisarni v Mariboru je bil petek zvečer, ko je zadnji test končno zasvetil zeleno. **Dominik** se je naslonil nazaj v stol, si privoščil požirek že hladne kave in se nasmehnil — cel teden se je lovil z eno samo trmasto napako, zdaj pa je koda tekla kot namazana. "Včasih je najlepši del dneva tisti, ko preprosto deluje," je pomislil, ugasnil zaslon in odšel v konec tedna z mirno vestjo.
+
