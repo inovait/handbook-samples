@@ -71,3 +71,7 @@ the License.
 ## Zgodbica
 
 > Dominik je napisal svojo prvo vrstico kode, a program je molčal — manjkalo je eno samo podpičje. Dodal ga je, zaslon je oživel, in Dominik je razumel: velike reči se skrivajo v drobnem `;`.
+
+## Lorem Ipsum
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
