@@ -74,7 +74,5 @@ the License.
 
 ## Kratka zgodbica
 
-> V pisarni v Mariboru je bil petek zvečer, ko je zadnji test končno zasvetil zeleno. **______** se je naslonil nazaj v stol, si privoščil požirek že hladne kave in se nasmehnil — cel teden se je lovil z eno samo trmasto napako, zdaj pa je koda tekla kot namazana. "Včasih je najlepši del dneva tisti, ko preprosto deluje," je pomislil, ugasnil zaslon in odšel v konec tedna z mirno vestjo.
-
-<!-- TODO: ime glavnega junaka je še neodločeno (Tilen ali Žan) — placeholder `______` je treba zamenjati, ko bo odločitev sprejeta. -->
+> V pisarni v Mariboru je bil petek zvečer, ko je zadnji test končno zasvetil zeleno. **Tilen** se je naslonil nazaj v stol, si privoščil požirek že hladne kave in se nasmehnil — cel teden se je lovil z eno samo trmasto napako, zdaj pa je koda tekla kot namazana. "Včasih je najlepši del dneva tisti, ko preprosto deluje," je pomislil, ugasnil zaslon in odšel v konec tedna z mirno vestjo.
 
