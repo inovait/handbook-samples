@@ -69,4 +69,9 @@
     <string name="tasks_header_image_content_description">Tasks header image</string>
     <string name="no_tasks_image_content_description">No tasks image</string>
 
+    <!-- First-launch Inova story dialog -->
+    <string name="story_dialog_title">Dobrodošel, Inovac!</string>
+    <string name="story_dialog_message">Dominik je napisal svojo prvo vrstico kode, a program je molčal — manjkalo je eno samo podpičje. Dodal ga je, zaslon je oživel, in Dominik je razumel: velike reči se skrivajo v drobnem ;.</string>
+    <string name="story_dialog_confirm">V redu</string>
+
 </resources>

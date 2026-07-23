@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+         Splash screen shown while the app starts up. Uses the AndroidX core-splashscreen
+         backport so it renders consistently from API 21 up to Android 12+.
+         Inova blocks logo centered on the dark brand background (#161616).
+    -->
+    <style name="Theme.Todoapp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/inova_dark_gray</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+
+</resources>

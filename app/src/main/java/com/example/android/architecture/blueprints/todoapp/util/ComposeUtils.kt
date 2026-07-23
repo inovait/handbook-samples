@@ -22,7 +22,7 @@ import androidx.compose.ui.graphics.Color
 import com.google.accompanist.swiperefresh.SwipeRefresh
 import com.google.accompanist.swiperefresh.rememberSwipeRefreshState
 
-val primaryDarkColor: Color = Color(0xFF263238)
+val primaryDarkColor: Color = Color(0xFF161616)
 
 /**
  * Display an initial empty state or swipe to refresh content.
